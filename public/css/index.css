@@ -25,6 +25,7 @@ select {
 }
 body {
   font-family: "微软雅黑";
+  font-size: 16px;
 }
 h1,
 h2,
@@ -32,7 +33,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 16px;
   font-weight: normal;
 }
 a,
@@ -40,7 +40,6 @@ u,
 ins {
   text-decoration: none;
 }
-b,
 strong {
   font-weight: normal;
 }
@@ -61,8 +60,11 @@ input {
   outline: none;
   border: 0;
 }
-body {
-  font-size: 12px;
+.left {
+  float: left;
+}
+.right {
+  float: right;
 }
 .clear::after {
   content: "";
@@ -78,7 +80,588 @@ body {
   font-family: "iconfont" !important;
   font-size: 16px;
   font-style: normal;
-  color: red;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+#header {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+  box-sizing: border-box;
+}
+#header > div {
+  width: 165px;
+  height: 60px;
+}
+#header > div > a {
+  display: block;
+  padding: 10px 15px;
+  color: #f50514;
+  font-size: 40px;
+}
+#header > .nav {
+  width: 462px;
+  height: 60px;
+  margin-left: 305px;
+}
+#header > .nav > li {
+  float: left;
+  line-height: 60px;
+  text-align: center;
+  vertical-align: top;
+}
+#header > .nav > li:nth-child(1):hover .sub-1 {
+  display: block;
+}
+#header > .nav > li:nth-child(2):hover .sub-2 {
+  display: block;
+}
+#header > .nav > li > a {
+  display: inline-block;
+  height: 60px;
+  padding: 0 20px;
+  font-size: 14px;
+  border-bottom: 3px solid transparent;
+  box-sizing: border-box;
+  color: #000;
+}
+#header > .nav > li > a:hover {
+  border-bottom-color: #f50514;
+}
+#header > .nav > li > a:nth-last-of-type(1) {
+  padding-right: 19px;
+}
+#header > .nav > li > a > i {
+  font-size: 28px;
+  vertical-align: top;
+}
+#header > .nav > li > .sub-1 {
+  width: 100%;
+  height: 160px;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+  display: none;
+  z-index: 1000;
+}
+#header > .nav > li > .sub-1 > .subnav {
+  width: 510px;
+  height: 100%;
+  margin: 0 auto;
+}
+#header > .nav > li > .sub-1 > .subnav > li {
+  float: left;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+  line-height: 30px;
+  cursor: pointer;
+}
+#header > .nav > li > .sub-1 > .subnav > li > a {
+  color: #000;
+}
+#header > .nav > li > .sub-1 > .subnav > li > a > p {
+  font-size: 26px;
+  margin: 30px 0;
+}
+#header > .nav > li > .sub-1 > .subnav > li > a > span {
+  font-size: 14px;
+}
+#header > .nav > li > .sub-1 > .subnav > li:hover a {
+  color: #f50514;
+}
+#header > .nav > li > .sub-2 {
+  width: 100%;
+  height: 160px;
+  position: absolute;
+  left: 0;
+  top: 60px;
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+  display: none;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+#header > .nav > li > .sub-2 > .subnav {
+  width: 820px;
+  height: 100%;
+  margin: 0 auto;
+}
+#header > .nav > li > .sub-2 > .subnav > li {
+  float: left;
+  width: 16.6%;
+  height: 100%;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+#header > .nav > li > .sub-2 > .subnav > li > a {
+  color: #000;
+}
+#header > .nav > li > .sub-2 > .subnav > li > a > p {
+  font-size: 26px;
+  margin: 30px 0;
+}
+#header > .nav > li > .sub-2 > .subnav > li > a > span {
+  font-size: 14px;
+  line-height: 30px;
+}
+#header > .nav > li > .sub-2 > .subnav > li:hover a {
+  color: #f50514;
+}
+#header > .user {
+  width: 120px;
+  height: 60px;
+}
+#header > .user > li {
+  float: left;
+  height: 100%;
+  width: 50%;
+  line-height: 60px;
+}
+#header > .user > li:nth-child(1):hover .sub-3 {
+  display: block;
+}
+#header > .user > li:nth-child(2):hover .sub-4 {
+  display: block;
+}
+#header > .user > li > a {
+  display: inline-block;
+  height: 100%;
+  font-size: 23px;
+  color: #000;
+  padding: 0 16px;
+  border-bottom: 3px solid transparent;
+}
+#header > .user > li > a:hover {
+  border-bottom-color: #f50514;
+}
+#header > .user > li > .sub-3 {
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 320px;
+  height: 260px;
+  background: #fff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  display: none;
+  z-index: 1000;
+}
+#header > .user > li > .sub-3 > li {
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid #ccc;
+}
+#header > .user > li > .sub-3 > li > a {
+  font-size: 14px;
+  color: #828282;
+}
+#header > .user > li > .sub-3 > li > a:hover {
+  color: #000;
+}
+#header > .user > li > .sub-3 > li:nth-of-type(4) {
+  text-align: right;
+}
+#header > .user > li > .sub-3 > li:nth-of-type(4) > a:hover {
+  text-decoration: underline;
+  color: #3976b3;
+}
+#header > .user > li > .sub-4 {
+  width: 400px;
+  height: 360px;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  border: 1px solid #ccc;
+  display: none;
+  z-index: 1000;
+  background: #fff;
+}
+#header > .user > li > .sub-4 > .sub-4-top {
+  height: 50px;
+  margin: 0 10px;
+  border-bottom: 5px solid #ccc;
+  box-sizing: border-box;
+  font-size: 14px;
+  line-height: 50px;
+}
+#header > .user > li > .sub-4 > .sub-4-mid {
+  width: 100%;
+  height: 210px;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+  padding-top: 70px;
+  box-sizing: border-box;
+}
+#header > .user > li > .sub-4 > .sub-4-mid > p:nth-child(1) {
+  font-size: 60px;
+  color: #ccc;
+}
+#header > .user > li > .sub-4 > .sub-4-mid > p:nth-child(2) {
+  font-size: 18px;
+  color: #828282;
+}
+#header > .user > li > .sub-4 > .sub-4-bot {
+  width: 100%;
+  height: 100px;
+}
+#header > .user > li > .sub-4 > .sub-4-bot > p {
+  width: 360px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  margin: 30px auto;
+  border: 1px solid #000;
+  box-sizing: border-box;
+}
+.containt {
+  width: 100%;
+}
+main > .sec-1 {
+  width: 100%;
+  height: 720px;
+  background: url(../img/sec-1.jpg) no-repeat center;
+  background-size: cover;
+}
+main > .sec-1 > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding-left: 270px;
+  padding-top: 250px;
+  font-weight: 500;
+  color: #000;
+  box-sizing: border-box;
+}
+main > .sec-1 > a > h1 {
+  font-size: 34px;
+}
+main > .sec-1 > a > p {
+  font-size: 18px;
+  margin-top: 5px;
+}
+main > .sec-1 > a > span {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 40px;
+}
+main > .sec-1 > a > em {
+  display: inline-block;
+  width: 108px;
+  height: 40px;
+  text-align: center;
+  margin: 16px 0 10px 0;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+main > .sec-1 > a > em:hover i {
+  border: 1px solid #000;
+  transition: border 1s;
+}
+main > .sec-1 > a > em > i {
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 36px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+main > .sec-1 > a > b:hover {
+  display: inline-block;
+  color: #828282;
+  text-decoration: underline;
+}
+main > .sec-1 > a > b:hover > i {
+  transform: translateX(5px);
+}
+main > .sec-1 > a > b > i {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 900;
+  color: #000;
+  transition: all 0.5s;
+}
+main > .sec-2 {
+  width: 100%;
+  height: 680px;
+  margin-top: 10px;
+  position: relative;
+}
+main > .sec-2 > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-weight: 500;
+  color: #000;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+main > .sec-2 > a > img {
+  width: 100%;
+  height: 100%;
+}
+main > .sec-2 > a > .tex {
+  position: absolute;
+  top: 260px;
+  left: 270px;
+}
+main > .sec-2 > a > .tex > h1 {
+  font-size: 34px;
+}
+main > .sec-2 > a > .tex > p {
+  font-size: 18px;
+  margin-top: 5px;
+}
+main > .sec-2 > a > .tex > span {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 40px;
+}
+main > .sec-2 > a > .tex > em {
+  display: inline-block;
+  width: 108px;
+  height: 40px;
+  text-align: center;
+  margin: 16px 0 10px 0;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+main > .sec-2 > a > .tex > em:hover i {
+  border: 1px solid #000;
+  transition: border 1s;
+}
+main > .sec-2 > a > .tex > em > i {
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 36px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+main > .sec-2 > a > .tex > b:hover {
+  display: inline-block;
+  color: #828282;
+  text-decoration: underline;
+}
+main > .sec-2 > a > .tex > b:hover > i {
+  transform: translateX(5px);
+}
+main > .sec-2 > a > .tex > b > i {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 900;
+  color: #000;
+  transition: all 0.5s;
+}
+main > .sec-3 {
+  width: 100%;
+  height: 680px;
+  margin-top: 10px;
+  position: relative;
+}
+main > .sec-3 > a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  font-weight: 500;
+  color: #000;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+main > .sec-3 > a > img {
+  width: 100%;
+  height: 100%;
+}
+main > .sec-3 > a > .tex {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -135px;
+  margin-top: -120px;
+  text-align: center;
+}
+main > .sec-3 > a > .tex > h1 {
+  font-size: 34px;
+}
+main > .sec-3 > a > .tex > p {
+  font-size: 18px;
+  margin-top: 20px;
+}
+main > .sec-3 > a > .tex > span {
+  display: inline-block;
+  font-size: 20px;
+  margin-top: 40px;
+}
+main > .sec-3 > a > .tex > em {
+  display: inline-block;
+  width: 108px;
+  height: 40px;
+  text-align: center;
+  margin: 16px 0 10px 0;
+  border: 2px solid #000;
+  border-radius: 8px;
+}
+main > .sec-3 > a > .tex > em:hover i {
+  border: 1px solid #000;
+  transition: border 1s;
+}
+main > .sec-3 > a > .tex > em > i {
+  width: 100%;
+  height: 100%;
+  display: block;
+  line-height: 36px;
+  border: 1px solid transparent;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+main > .sec-3 > a > .tex > b:hover {
+  display: inline-block;
+  color: #828282;
+  text-decoration: underline;
+  transform: translateX(-5px);
+  transition: transform 0.5s;
+}
+main > .sec-3 > a > .tex > b:hover > i {
+  color: #828282;
+  transform: translateX(8px);
+}
+main > .sec-3 > a > .tex > b > i {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 900;
+  color: #000;
+  transition: transform 0.5s;
+}
+main > .containt > .sec-4 {
+  width: 1300px;
+  height: 1060px;
+  margin: 30px auto 20px;
+  box-sizing: border-box;
+}
+main > .containt > .sec-4 > li {
+  width: 49%;
+  height: 49%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+}
+main > .containt > .sec-4 > li:nth-of-type(1) {
+  margin-right: 22px;
+}
+main > .containt > .sec-4 > li:nth-of-type(3) {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+main > .containt > .sec-4 > li:nth-of-type(4) {
+  margin-top: 20px;
+}
+main > .containt > .sec-4 > li:nth-of-type(2) > a > .tex {
+  color: #fff;
+}
+main > .containt > .sec-4 > li:nth-of-type(2) > a > .tex > span > i {
+  color: #fff;
+}
+main > .containt > .sec-4 > li:nth-of-type(2) > a > .tex:hover {
+  background: rgba(0, 0, 0, 0.35);
+}
+main > .containt > .sec-4 > li:nth-of-type(2) > a > .tex:hover > span {
+  display: inline-block;
+  color: #a1a1a1;
+  text-decoration: underline;
+  transform: translateX(-5px);
+  transition: transform 0.5s;
+}
+main > .containt > .sec-4 > li:nth-of-type(2) > a > .tex:hover > span > i {
+  color: #a1a1a1;
+  transform: translateX(8px);
+}
+main > .containt > .sec-4 > li:hover img {
+  transform: scale(1.1);
+  transition: transform 0.8s;
+}
+main > .containt > .sec-4 > li > a {
+  width: 100%;
+  height: 100%;
+}
+main > .containt > .sec-4 > li > a > .img {
+  width: 100%;
+  height: 100%;
+}
+main > .containt > .sec-4 > li > a > .img > img.lazy {
+  width: 100%;
+  height: 100%;
+}
+main > .containt > .sec-4 > li > a > .tex {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-align: center;
+  color: #000;
+  line-height: 40px;
+  background: rgba(0, 0, 0, 0);
+  transition: all 0.5s;
+}
+main > .containt > .sec-4 > li > a > .tex:hover {
+  background: rgba(0, 0, 0, 0.35);
+}
+main > .containt > .sec-4 > li > a > .tex:hover > span {
+  display: inline-block;
+  color: #3a3939;
+  text-decoration: underline;
+  transform: translateX(-5px);
+  transition: transform 0.5s;
+}
+main > .containt > .sec-4 > li > a > .tex:hover > span > i {
+  color: #3a3939;
+  transform: translateX(8px);
+}
+main > .containt > .sec-4 > li > a > .tex > h1 {
+  margin-top: 35px;
+}
+main > .containt > .sec-4 > li > a > .tex > span > i {
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 900;
+  color: #000;
+  transition: transform 0.5s;
+}
+main > .sec-5 {
+  width: 100%;
+  height: 200px;
+}
+main > .sec-5 > ul {
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex: auto;
+}
+main > .sec-5 > ul li {
+  height: 50%;
+  display: flex;
+  margin-top: 50px;
+  flex-direction: column;
+  justify-content: space-around;
+}
+main > .sec-5 > ul li img {
+  padding: 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+main > .sec-5 > ul li a {
+  color: #000;
 }

@@ -25,6 +25,7 @@ select {
 }
 body {
   font-family: "微软雅黑";
+  font-size: 16px;
 }
 h1,
 h2,
@@ -32,7 +33,6 @@ h3,
 h4,
 h5,
 h6 {
-  font-size: 16px;
   font-weight: normal;
 }
 a,
@@ -40,7 +40,6 @@ u,
 ins {
   text-decoration: none;
 }
-b,
 strong {
   font-weight: normal;
 }
@@ -61,8 +60,11 @@ input {
   outline: none;
   border: 0;
 }
-body {
-  font-size: 12px;
+.left {
+  float: left;
+}
+.right {
+  float: right;
 }
 .clear::after {
   content: "";

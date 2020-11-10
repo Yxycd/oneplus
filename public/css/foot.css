@@ -1,0 +1,107 @@
+footer {
+  width: 100%;
+  height: 420px;
+  padding: 30px 0;
+  box-sizing: border-box;
+  background: cadetblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer > .foot-top {
+  width: 1200px;
+  margin: 0 auto;
+  background: crimson;
+  display: flex;
+}
+footer > .foot-top > ul {
+  flex: auto;
+}
+footer > .foot-top > ul > li {
+  line-height: 40px;
+}
+footer > .foot-top > ul > li > a {
+  color: #5c5b5b;
+}
+footer > .foot-mid {
+  width: 1200px;
+  height: 80px;
+  margin: 0 auto;
+  background: lightcoral;
+  display: flex;
+  justify-content: space-between;
+}
+footer > .foot-mid > p:nth-of-type(1) {
+  font-size: 14px;
+  line-height: 130px;
+}
+footer > .foot-mid > p:nth-of-type(1) > a {
+  color: #3976b3;
+}
+footer > .foot-mid > p:nth-of-type(2) {
+  word-spacing: 10px;
+  line-height: 130px;
+  vertical-align: middle;
+}
+footer > .foot-mid > p:nth-of-type(2) > span {
+  font-size: 14px;
+  vertical-align: bottom;
+}
+footer > .foot-mid > p:nth-of-type(2) > span > a {
+  font-size: 16px;
+  color: #3976b3;
+  vertical-align: bottom;
+}
+footer > .foot-mid > p:nth-of-type(2) > a {
+  font-size: 20px;
+  color: #3976b3;
+  font-weight: 900;
+  vertical-align: bottom;
+}
+footer > .foot-mid > p:nth-of-type(2) > a > b {
+  font-weight: normal;
+  color: #525252;
+  font-size: 26px;
+  vertical-align: middle;
+}
+footer > .foot-mid > p:nth-of-type(2) > i {
+  font-size: 12px;
+  color: #5c5b5b;
+  vertical-align: middle;
+}
+footer > .foot-bot {
+  width: 100%;
+  height: 150px;
+  background: burlywood;
+  padding: 20px 0;
+  box-sizing: border-box;
+}
+footer > .foot-bot > .all {
+  width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+  font-size: 12px;
+  display: flex;
+  justify-content: space-between;
+}
+footer > .foot-bot > .all > .fir {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer > .foot-bot > .all > .fir > a {
+  font-size: 16px;
+  color: #000;
+}
+footer > .foot-bot > .all > .sec {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer > .foot-bot > .all > .sec > a:nth-of-type(1) {
+  word-spacing: 15px;
+  color: #000;
+}
+footer > .foot-bot > .all > .sec > a:nth-of-type(1) > i {
+  color: #525252;
+}

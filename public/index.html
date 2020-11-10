@@ -3,15 +3,289 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../public/css/index.css">
-    <script src="./js/index.js"></script>
+    <title>首页</title>
+    <link rel="stylesheet" href="css/index.css">
+    <!-- <link rel="stylesheet" href="../public/css/reset.css">
+    <link rel="stylesheet" href="../public/css/head.css"> -->
+    <link rel="stylesheet" href="css/foot.css">
+    <script src="./js/index.js" type="module"></script>
 </head>
 <body>
-    <header>
-        <div>
-            <a href="#" class="iconfont">&#xe6a7;</a>
-        </div>
+    <header id="header" class="clear">
+        
+        <div class="left"><a href="#" class="iconfont">&#xe6a7;</a></div>
+        
+        <ul class="nav left">
+            <li>
+                <a href="#" >8 系列&nbsp;<i class="iconfont">&#xe63f;</i></a>
+                <div class="sub-1">
+                    <ul class="subnav">
+                        <li>
+                            <a href="#">
+                                <p class="iconfont">&#xe6c9;</p>
+                                <span>OnePlus 8T</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="iconfont">&#xe6c9;</p>
+                                <span>8T 赛博朋克<br>2077</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="iconfont">&#xe6c9;</p>
+                                <span>OnePlus 8 Pro</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="iconfont">&#xe6c9;</p>
+                                <span>OnePlus 8</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="#">商城</a>
+                <div class="sub-2">
+                    <ul class="subnav">
+                        <li>
+                            <a href="#">
+                                <p class="iconfont">&#xe6c9;</p>
+                                <span>手机</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="iconfont">&#xe677;</p>
+                                <span>耳机</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="iconfont">&#xe610;</p>
+                                <span>壳/膜</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="iconfont">&#xe6a3;</p>
+                                <span>适配器/数据线</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="iconfont">&#xe611;</p>
+                                <span>套装</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p class="iconfont">&#xe657;</p>
+                                <span>生活馆</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li><a href="#">品牌</a></li>
+            <li><a href="#">服务</a></li>
+            <li><a href="#">论坛</a></li>
+            <li><a href="#">零售店</a></li>
+        </ul>
+
+        <ul class="user right">
+            <li>
+                <!-- <a href="#"><img src="../public/img/4d22e692ce78157be3374bac0ad0f868.png" alt=""></a> -->
+                <a href="#" class="iconfont">&#xe62f;</a>
+                <ul class="sub-3">
+                    <li><a href="#">订单</a></li>
+                    <li><a href="#">账户</a></li>
+                    <li><a href="#">推荐有礼</a></li>
+                    <li><a href="#" style="color: #3976b3;">登录</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="#" class="iconfont">&#xe670;</a>
+                <div class="sub-4">
+                    <div class="sub-4-top">还差 ￥ 99.00 免邮</div>
+                    <div class="sub-4-mid">
+                        <p class="iconfont">&#xe670;</p>
+                        <p>您的购物车里没有商品！</p>
+                    </div>
+                    <div class="sub-4-bot">
+                        <p>去购物</p>
+                    </div>
+                </div>
+            </li>
+        </ul>
     </header>
+
+    <main>
+        <section class="sec-1">
+            <a href="#" class="left">
+                <h1>OnePlus 8T</h1>
+                <p>120Hz 柔性直屏 | 65W 超级闪充 | 骁龙 865  </p>
+                <span>￥3399 起</span><br>
+                <em><i>立即预约</i></em><br>
+                <b>了解产品&nbsp;<i>></i></b>
+            </a>
+        </section>
+        <section class="sec-2">
+            <a href="#" class="left">
+                <img data-original="./img/sec-2.jpg" class="lazy" alt="">
+                <div class="tex">
+                    <h1>OnePlus 8</h1>
+                    <p>最高立减600元</p>
+                    <span>￥3599 起</span><br>
+                    <em><i>立即购买</i></em><br>
+                    <b>了解产品&nbsp;<i>></i></b>
+                </div>
+            </a>
+        </section>
+        <section class="sec-3">
+            <a href="#" class="left">
+                <img data-original="./img/sec-3.png" class="lazy" alt="">
+                <div class="tex">
+                    <h1>OnePlus 8 Pro</h1>
+                    <p>最高立减600元</p>
+                    <span>￥4799 起</span><br>
+                    <em><i>立即购买</i></em><br>
+                    <b>了解产品&nbsp;<i>></i></b>
+                </div>
+            </a>
+        </section>
+        <section class="containt">
+            <ul class="sec-4">
+                <li>
+                    <a href="#">
+                        <div class="img">
+                            <img data-original="./img/sec-4-1.jpg" class="lazy" alt="">
+                        </div>
+                        <div class="tex">
+                            <h1>公告</h1>
+                            <p>官方商城业务迁移</p>
+                            <span>了解产品&nbsp;<i>></i></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img">
+                            <img data-original="./img/sec-4-2.jpg" class="lazy" alt="">
+                        </div>
+                        <div class="tex">
+                            <h1>公告</h1>
+                            <p>官方商城业务迁移</p>
+                            <span>了解产品&nbsp;<i>></i></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img">
+                            <img data-original="./img/sec-4-3.jpg" class="lazy" alt="">
+                        </div>
+                        <div class="tex">
+                            <h1>公告</h1>
+                            <p>官方商城业务迁移</p>
+                            <span>了解产品&nbsp;<i>></i></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <div class="img">
+                            <img data-original="./img/sec-4-4.jpg" class="lazy" alt="">
+                        </div>
+                        <div class="tex">
+                            <h1>公告</h1>
+                            <p>官方商城业务迁移</p>
+                            <span>了解产品&nbsp;<i>></i></span>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section class="sec-5">
+            <ul>
+                <li>
+                    <a href="#"><img src="./img/icon-3.svg" alt=""></a>
+                    <a href="#">7天无理由退货</a>
+                </li>
+                <li>
+                    <a href="#"><img src="./img/icon-2.svg" alt=""></a>
+                    <a href="#">30天无理由退货</a>
+                </li>
+                <li>
+                    <a href="#"><img src="./img/icon-2.svg" alt=""></a>
+                    <a href="#">30天无理由退货</a>
+                </li>
+                <li>
+                    <a href="#"><img src="./img/icon-4.svg" alt=""></a>
+                    <a href="#">99元全场包邮</a>
+                </li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <section class="foot-top">
+            <ul>
+                <li>一加产品</li>
+                <li><a href="#">OnePlus 8T</a></li>
+                <li><a href="#">OnePlus 8T</a></li>
+                <li><a href="#">OnePlus 8T</a></li>
+                <li><a href="#">OnePlus 8T</a></li>
+            </ul>
+            <ul>
+                <li>配件</li>
+                <li><a href="#">耳机</a></li>
+                <li><a href="#">壳/膜</a></li>
+                <li><a href="#">数据线</a></li>
+                <li><a href="#">生活馆</a></li>
+                <li><a href="#">生活馆</a></li>
+            </ul>
+            <ul>
+                <li>关于一加</li>
+                <li><a href="#">了解一加</a></li>
+                <li><a href="#">加入一加</a></li>
+                <li><a href="#">了解一加</a></li>
+                <li><a href="#">了解一加</a></li>
+                <li><a href="#">了解一加</a></li>
+                <li><a href="#">加入一加</a></li>
+            </ul>
+            <ul>
+                <li>服务支持</li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">联系我们</a></li>
+                <li><a href="#">联系我们</a></li>
+            </ul>
+        </section>
+        <section class="foot-mid">
+            <p>更多选购方式，请 <a href="#">查找零售店</a> 或 <a href="#">一加微信官方商城</a></p>
+            <p><a href="#" class="iconfont">&#xe64f;</a> 400-888-1111 <a href="#" class="iconfont">&#xe63e;</a><span><a href="#"> 在线客服</a> 周一至周日 9:00 - 22:00 </span><i>|</i> <a href="#"><b class="iconfont">&#xe66f;</b></a> <a href="#"><b class="iconfont">&#xe502;</b></a></p>
+        </section>
+        <section class="foot-bot">
+            <div class="all">
+                <div class="fir">
+                    <a href="#">中国大陆 ( 简体中文 / CNY )</a>
+                    <p>
+                        <span>粤ICP备13080605号 | 备案主体编号: 44201910955995</span><br>
+                        <span>粤公网安备 44030402001407号粤公网安备 44030402001407号</span>
+                    </p>
+                </div>
+                <div class="sec">
+                    <a href="#">隐私政策<i> | </i>用户协议<i> | </i>竞赛规则<i> | </i>知识产权政策<i> | </i>安全问题反馈<i> | </i>站点地图</a>
+                    <a href="#"></a>
+                </div>
+            </div>
+        </section>
+    </footer>
 </body>
 </html>
