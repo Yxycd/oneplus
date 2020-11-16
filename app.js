@@ -6,6 +6,8 @@ const createError = require('http-errors');
 const app = express();
 
 const usersRouter = require('./router/users');//导入路由模块
+const productRouter = require('./router/product');
+
 
 let conf = {
     port: 8088,
@@ -21,6 +23,7 @@ app.use(express.urlencoded({ extended: true })); // post表单数据解析成j
 app.use(cookieParser());
 
 app.use('/users', usersRouter);//使用usersRouter路由中间件
+app.use('/product',productRouter);
 
 //自定义一个错误中间件，当请求一个不存在的路径时，会被触发
 app.use(function (req, res, next) {

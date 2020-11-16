@@ -1,0 +1,104 @@
+@charset "utf-8";
+
+@import './reset.less';
+
+h1{
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 36px;
+    margin: 52px 0;
+    text-align: center;
+}
+#myform{
+    width: 400px;
+    height: 390px;
+    margin: 0 auto 20px;
+    // background: lightblue;
+    position: relative;
+    >input{
+        margin-bottom: 10px;
+        &:not([name=tes])[type=text],&:not([name=tes])[type=password]{
+            width: 400px;
+            height: 45px;
+            background: #f7f7f7;
+            border-radius: 9px;
+            box-sizing: border-box;
+            display: inline-block;
+            font-size: 12px;
+            height: 45px;
+            padding: 0 10px;
+        }
+        &[name=tes]{
+            width: 80%;
+            height: 45px;
+            background: #f7f7f7;
+            border-radius: 9px;
+            box-sizing: border-box;
+            color: #000;
+            display: block;
+            font-size: 12px;
+            height: 45px;
+            padding: 0 10px;
+        }
+        &[class=tip]{
+            color: #000!important;
+            word-spacing: 10px;
+        }
+        &[type=checkbox]{
+            background-color: #eb0028!important;
+        }
+    }
+    >p{
+        font-size: 10px;
+        color: #a09f9f;
+        margin-bottom: 10px;
+    }
+    >span:nth-of-type(2){
+        width: 70px;
+        height: 45px;
+        background: #f7f7f7;
+        border-radius: 9px;
+        box-sizing: border-box;
+        color: #000;
+        display: block;
+        font-size: 12px;
+        position: absolute;
+        top: 35%;
+        right: 0;
+        line-height: 45px;
+        text-align: center;
+        color: #9b9b9b;
+    }
+    >input:nth-last-of-type(1){
+        background-color: #e9e9e9;
+        border-color: #e9e9e9;
+        color: #9b9b9b;
+        opacity: 1;
+        height: 39px;
+        line-height: 39px;
+        margin-top: 37px;
+        margin-left: 150px;
+        width: 100px;
+        border-radius: 9px;
+    }
+    >.yz{
+        position: absolute;
+        left: -80px;
+        font-size: 12px;
+        color: #9b9b9b;
+    }
+    >.z1{
+        top: 94px;
+    }
+    >.z2{
+        top: 150px;
+    }
+    >.z3{
+        top: 206px;
+    }
+}
+.p1{
+    font-size: 12px;
+    text-align: center;
+    color: #9b9b9b;
+}

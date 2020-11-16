@@ -3,17 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>首页</title>
-    <link rel="stylesheet" href="css/index.css">
-    <!-- <link rel="stylesheet" href="../public/css/reset.css">
-    <link rel="stylesheet" href="../public/css/head.css"> -->
-    <!-- <link rel="stylesheet" href="css/foot.css"> -->
-    <script src="./js/index.js" type="module"></script>
+    <title>商品详情</title>
+    <link rel="stylesheet" href="../css/products.css">
+    <script src="../js/productss.js" type="module"></script>
 </head>
 <body>
     <header id="header" class="clear">
         
-        <div class="left"><a href="#" class="iconfont">&#xe6a7;</a></div>
+        <div class="left"><a href="../index.html" class="iconfont">&#xe6a7;</a></div>
         
         <ul class="nav left">
             <li>
@@ -48,7 +45,7 @@
                 </div>
             </li>
             <li>
-                <a href="./html/market.html">商城</a>
+                <a href="./market.html">商城</a>
                 <div class="sub-2">
                     <ul class="subnav">
                         <li>
@@ -99,7 +96,7 @@
         <ul class="user right">
             <li>
                 <!-- <a href="#"><img src="../public/img/4d22e692ce78157be3374bac0ad0f868.png" alt=""></a> -->
-                <a href="./html/login.html" class="iconfont">&#xe62f;</a>
+                <a href="#" class="iconfont">&#xe62f;</a>
                 <ul class="sub-3">
                     <li><a href="#">订单</a></li>
                     <li><a href="#">账户</a></li>
@@ -108,7 +105,7 @@
                 </ul>
             </li>
             <li>
-                <a href="html/shopcar.html" class="iconfont">&#xe670;</a>
+                <a href="./shopcar.html" class="iconfont">&#xe670;</a>
                 <div class="sub-4">
                     <div class="sub-4-top">还差 ￥ 99.00 免邮</div>
                     <div class="sub-4-mid">
@@ -124,111 +121,80 @@
     </header>
 
     <main>
-        <section class="sec-1">
-            <a href="#" class="left">
-                <h1>OnePlus 8T</h1>
-                <p>120Hz 柔性直屏 | 65W 超级闪充 | 骁龙 865  </p>
-                <span>￥3399 起</span><br>
-                <em><i>立即预约</i></em><br>
-                <b>了解产品&nbsp;<i>></i></b>
-            </a>
-        </section>
-        <section class="sec-2">
-            <a href="#" class="left">
-                <img data-original="./img/sec-2.jpg" class="lazy" alt="">
-                <div class="tex">
-                    <h1>OnePlus 8</h1>
-                    <p>最高立减600元</p>
-                    <span>￥3599 起</span><br>
-                    <em><i>立即购买</i></em><br>
-                    <b>了解产品&nbsp;<i>></i></b>
+
+        <section class="sec-1 clear">
+            <!-- <div class="imgg left">
+                <div class="showing">
+                    <img src="../img/a1-1.jpg" alt="" class="hi">
                 </div>
-            </a>
-        </section>
-        <section class="sec-3">
-            <a href="#" class="left">
-                <img data-original="./img/sec-3.png" class="lazy" alt="">
-                <div class="tex">
-                    <h1>OnePlus 8 Pro</h1>
-                    <p>最高立减600元</p>
-                    <span>￥4799 起</span><br>
-                    <em><i>立即购买</i></em><br>
-                    <b>了解产品&nbsp;<i>></i></b>
+                <ul class="small">
+                    <li><img src="../img/a1-1.jpg" alt=""></li>
+                    <li><img src="../img/a1-2.jpg" alt=""></li>
+                    <li><img src="../img/a1-3.jpg" alt=""></li>
+                    <li><img src="../img/a1-4.jpg" alt=""></li>
+                </ul>
+            </div>
+            <div class="mesage right">
+                <div class="tips">
+                    <h1>OnePlus 8T 青域/8GB+128GB</h1>
+                    <p>
+                        【付款后10日内发货，晒单送爱奇艺会员】旗舰性能游戏玩家必备，120Hz柔性直屏，65W超级闪充，超清广角四摄，轻薄手感。
+                    </p>
+                    <span>￥3399.00</span>
                 </div>
-            </a>
+                <div class="choose">
+                    <div class="colo">
+                        <p>颜色</p>
+                        <a href="#">青域</a>
+                        <a href="#">饮食</a>
+                    </div>
+                    <div class="mesa">
+                        <p>规格</p>
+                        <a href="#">8GB+128GB</a>
+                        <a href="#">12GB+256GB</a>
+                    </div>
+                    <div class="huabei">
+                        <p>花呗分期</p>
+                        <a href="#">￥1159.6 x 3期</a>
+                        <a href="#">￥591.6 x 6期</a>
+                        <a href="#">￥305.6 x 12期</a>
+                    </div>
+                    <div class="num">
+                        <p>选择数量</p>
+                        <ul class="count">
+                            <li><span id="num-jian" class="num-jian">-</span></li>
+                            <li><input type="text" class="input-num" id="input-num" value="0" /></li>
+                            <li><span id="num-jia" class="num-jia">+</span></li>
+                        </ul>
+                    </div>
+                    <input type="button" value="加入购物车" id="additem" class="butt"></input>
+                </div>
+            </div> -->
         </section>
-        <section class="containt">
-            <ul class="sec-4">
-                <li>
-                    <a href="#">
-                        <div class="img">
-                            <img data-original="./img/sec-4-1.jpg" class="lazy" alt="">
-                        </div>
-                        <div class="tex">
-                            <h1>公告</h1>
-                            <p>官方商城业务迁移</p>
-                            <span>了解产品&nbsp;<i>></i></span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <div class="img">
-                            <img data-original="./img/sec-4-2.jpg" class="lazy" alt="">
-                        </div>
-                        <div class="tex">
-                            <h1>公告</h1>
-                            <p>官方商城业务迁移</p>
-                            <span>了解产品&nbsp;<i>></i></span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <div class="img">
-                            <img data-original="./img/sec-4-3.jpg" class="lazy" alt="">
-                        </div>
-                        <div class="tex">
-                            <h1>公告</h1>
-                            <p>官方商城业务迁移</p>
-                            <span>了解产品&nbsp;<i>></i></span>
-                        </div>
-                    </a>
-                </li>
-                <li>
-                    <a href="#">
-                        <div class="img">
-                            <img data-original="./img/sec-4-4.jpg" class="lazy" alt="">
-                        </div>
-                        <div class="tex">
-                            <h1>公告</h1>
-                            <p>官方商城业务迁移</p>
-                            <span>了解产品&nbsp;<i>></i></span>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </section>
+
+
         <section class="sec-5">
             <ul>
                 <li>
-                    <a href="#"><img src="./img/icon-3.svg" alt=""></a>
+                    <a href="#"><img src="../img/icon-3.svg" alt=""></a>
                     <a href="#">7天无理由退货</a>
                 </li>
                 <li>
-                    <a href="#"><img src="./img/icon-2.svg" alt=""></a>
+                    <a href="#"><img src="../img/icon-2.svg" alt=""></a>
                     <a href="#">30天无理由退货</a>
                 </li>
                 <li>
-                    <a href="#"><img src="./img/icon-2.svg" alt=""></a>
+                    <a href="#"><img src="../img/icon-2.svg" alt=""></a>
                     <a href="#">30天无理由退货</a>
                 </li>
                 <li>
-                    <a href="#"><img src="./img/icon-4.svg" alt=""></a>
+                    <a href="#"><img src="../img/icon-4.svg" alt=""></a>
                     <a href="#">99元全场包邮</a>
                 </li>
             </ul>
         </section>
+
+
     </main>
 
     <footer>

@@ -319,324 +319,133 @@ input {
   border: 1px solid #000;
   box-sizing: border-box;
 }
-.containt {
-  width: 100%;
-}
 main > .sec-1 {
-  width: 100%;
-  height: 720px;
-  background: url(../img/sec-1.jpg) no-repeat center;
-  background-size: cover;
+  margin: 50px 0 0;
 }
-main > .sec-1 > a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  padding-left: 270px;
-  padding-top: 250px;
-  font-weight: 500;
-  color: #000;
-  box-sizing: border-box;
-}
-main > .sec-1 > a > h1 {
-  font-size: 34px;
-}
-main > .sec-1 > a > p {
-  font-size: 18px;
-  margin-top: 5px;
-}
-main > .sec-1 > a > span {
-  display: inline-block;
-  font-size: 20px;
-  margin-top: 40px;
-}
-main > .sec-1 > a > em {
-  display: inline-block;
-  width: 108px;
-  height: 40px;
-  text-align: center;
-  margin: 16px 0 10px 0;
-  border: 2px solid #000;
-  border-radius: 8px;
-}
-main > .sec-1 > a > em:hover i {
-  border: 1px solid #000;
-  transition: border 1s;
-}
-main > .sec-1 > a > em > i {
-  width: 100%;
-  height: 100%;
-  display: block;
-  line-height: 36px;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-main > .sec-1 > a > b:hover {
-  display: inline-block;
-  color: #828282;
-  text-decoration: underline;
-}
-main > .sec-1 > a > b:hover > i {
-  transform: translateX(5px);
-}
-main > .sec-1 > a > b > i {
-  display: inline-block;
-  font-size: 18px;
-  font-weight: 900;
-  color: #000;
-  transition: all 0.5s;
-}
-main > .sec-2 {
-  width: 100%;
+main > .sec-1 > .imgg {
+  width: 600px;
   height: 680px;
-  margin-top: 10px;
+}
+main > .sec-1 > .imgg > .showing {
+  width: 580px;
+  height: 520px;
+  margin: 0 auto;
   position: relative;
+  background-size: 520px;
 }
-main > .sec-2 > a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  font-weight: 500;
-  color: #000;
-  box-sizing: border-box;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-main > .sec-2 > a > img {
-  width: 100%;
+main > .sec-1 > .imgg > .showing > .hi {
   height: 100%;
 }
-main > .sec-2 > a > .tex {
-  position: absolute;
-  top: 260px;
-  left: 270px;
+main > .sec-1 > .imgg > .small {
+  width: 580px;
+  height: 80px;
+  margin: 0 auto;
 }
-main > .sec-2 > a > .tex > h1 {
-  font-size: 34px;
-}
-main > .sec-2 > a > .tex > p {
-  font-size: 18px;
-  margin-top: 5px;
-}
-main > .sec-2 > a > .tex > span {
-  display: inline-block;
-  font-size: 20px;
-  margin-top: 40px;
-}
-main > .sec-2 > a > .tex > em {
-  display: inline-block;
-  width: 108px;
-  height: 40px;
-  text-align: center;
-  margin: 16px 0 10px 0;
-  border: 2px solid #000;
-  border-radius: 8px;
-}
-main > .sec-2 > a > .tex > em:hover i {
-  border: 1px solid #000;
-  transition: border 1s;
-}
-main > .sec-2 > a > .tex > em > i {
-  width: 100%;
-  height: 100%;
-  display: block;
-  line-height: 36px;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-main > .sec-2 > a > .tex > b:hover {
-  display: inline-block;
-  color: #828282;
-  text-decoration: underline;
-}
-main > .sec-2 > a > .tex > b:hover > i {
-  transform: translateX(5px);
-}
-main > .sec-2 > a > .tex > b > i {
-  display: inline-block;
-  font-size: 18px;
-  font-weight: 900;
-  color: #000;
-  transition: all 0.5s;
-}
-main > .sec-3 {
-  width: 100%;
-  height: 680px;
-  margin-top: 10px;
-  position: relative;
-}
-main > .sec-3 > a {
-  display: block;
-  width: 100%;
-  height: 100%;
-  font-weight: 500;
-  color: #000;
-  box-sizing: border-box;
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-main > .sec-3 > a > img {
-  width: 100%;
-  height: 100%;
-}
-main > .sec-3 > a > .tex {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-left: -135px;
-  margin-top: -120px;
-  text-align: center;
-}
-main > .sec-3 > a > .tex > h1 {
-  font-size: 34px;
-}
-main > .sec-3 > a > .tex > p {
-  font-size: 18px;
-  margin-top: 20px;
-}
-main > .sec-3 > a > .tex > span {
-  display: inline-block;
-  font-size: 20px;
-  margin-top: 40px;
-}
-main > .sec-3 > a > .tex > em {
-  display: inline-block;
-  width: 108px;
-  height: 40px;
-  text-align: center;
-  margin: 16px 0 10px 0;
-  border: 2px solid #000;
-  border-radius: 8px;
-}
-main > .sec-3 > a > .tex > em:hover i {
-  border: 1px solid #000;
-  transition: border 1s;
-}
-main > .sec-3 > a > .tex > em > i {
-  width: 100%;
-  height: 100%;
-  display: block;
-  line-height: 36px;
-  border: 1px solid transparent;
-  border-radius: 5px;
-  box-sizing: border-box;
-}
-main > .sec-3 > a > .tex > b:hover {
-  display: inline-block;
-  color: #828282;
-  text-decoration: underline;
-  transform: translateX(-5px);
-  transition: transform 0.5s;
-}
-main > .sec-3 > a > .tex > b:hover > i {
-  color: #828282;
-  transform: translateX(8px);
-}
-main > .sec-3 > a > .tex > b > i {
-  display: inline-block;
-  font-size: 18px;
-  font-weight: 900;
-  color: #000;
-  transition: transform 0.5s;
-}
-main > .containt > .sec-4 {
-  width: 1300px;
-  height: 1060px;
-  margin: 30px auto 20px;
-  box-sizing: border-box;
-}
-main > .containt > .sec-4 > li {
-  width: 49%;
-  height: 49%;
+main > .sec-1 > .imgg > .small > li {
   float: left;
-  position: relative;
+  width: 60px;
+  height: 80px;
+  margin: 0 20px 0 20px;
+  border-bottom: 1px solid transparent;
+}
+main > .sec-1 > .imgg > .small > li:nth-child(1) {
+  margin-left: 78px;
+}
+main > .sec-1 > .imgg > .small > li > img {
+  width: 60px;
+  height: 80px;
+  opacity: 0.6;
+}
+main > .sec-1 > .imgg > .small > li > img:hover {
+  opacity: 1;
+  border-bottom: 1px solid #ccc;
+}
+main > .sec-1 > .mesage {
+  width: 600px;
+  height: 680px;
+}
+main > .sec-1 > .mesage > .tips {
+  width: 500px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #ccc;
+}
+main > .sec-1 > .mesage > .tips > h1 {
+  width: 100%;
+  font-size: 22px;
+}
+main > .sec-1 > .mesage > .tips > p {
+  font-size: 14px;
+  margin: 15px 0;
+  color: #6e6e6e;
+}
+main > .sec-1 > .mesage > .tips > span {
+  font-size: 24px;
+}
+main > .sec-1 > .mesage > .choose {
+  width: 100%;
+}
+main > .sec-1 > .mesage > .choose p {
+  font-size: 14px;
+  color: #6e6e6e;
+}
+main > .sec-1 > .mesage > .choose div {
+  margin: 10px 0;
+}
+main > .sec-1 > .mesage > .choose a {
+  display: inline-block;
+  width: 240px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 20px 10px 0;
+  color: #000;
+}
+main > .sec-1 > .mesage > .choose a:hover {
+  border-color: aquamarine;
+}
+main > .sec-1 > .mesage > .choose .butt {
+  display: block;
+  width: 220px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  background: #eb0028;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  margin-left: 150px;
+  margin-top: 10px;
+}
+main > .sec-1 > .mesage > .choose > .num {
   overflow: hidden;
 }
-main > .containt > .sec-4 > li:nth-of-type(1) {
-  margin-right: 22px;
+main > .sec-1 > .mesage > .choose > .num > .count {
+  overflow: hidden;
 }
-main > .containt > .sec-4 > li:nth-of-type(3) {
-  margin-top: 20px;
-  margin-right: 20px;
+main > .sec-1 > .mesage > .choose > .num > .count li {
+  float: left;
 }
-main > .containt > .sec-4 > li:nth-of-type(4) {
-  margin-top: 20px;
-}
-main > .containt > .sec-4 > li:nth-of-type(2) > a > .tex {
-  color: #fff;
-}
-main > .containt > .sec-4 > li:nth-of-type(2) > a > .tex > span > i {
-  color: #fff;
-}
-main > .containt > .sec-4 > li:nth-of-type(2) > a > .tex:hover {
-  background: rgba(0, 0, 0, 0.35);
-}
-main > .containt > .sec-4 > li:nth-of-type(2) > a > .tex:hover > span {
+main > .sec-1 > .mesage > .choose > .num > .count .num-jian,
+main > .sec-1 > .mesage > .choose > .num > .count .input-num,
+main > .sec-1 > .mesage > .choose > .num > .count .num-jia {
   display: inline-block;
-  color: #a1a1a1;
-  text-decoration: underline;
-  transform: translateX(-5px);
-  transition: transform 0.5s;
-}
-main > .containt > .sec-4 > li:nth-of-type(2) > a > .tex:hover > span > i {
-  color: #a1a1a1;
-  transform: translateX(8px);
-}
-main > .containt > .sec-4 > li:hover img {
-  transform: scale(1.1);
-  transition: transform 0.8s;
-}
-main > .containt > .sec-4 > li > a {
-  width: 100%;
-  height: 100%;
-}
-main > .containt > .sec-4 > li > a > .img {
-  width: 100%;
-  height: 100%;
-}
-main > .containt > .sec-4 > li > a > .img > img.lazy {
-  width: 100%;
-  height: 100%;
-}
-main > .containt > .sec-4 > li > a > .tex {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  text-align: center;
-  color: #000;
+  width: 40px;
+  height: 40px;
   line-height: 40px;
-  background: rgba(0, 0, 0, 0);
-  transition: all 0.5s;
+  text-align: center;
+  font-size: 22px;
+  color: #999;
+  cursor: pointer;
+  border: 1px solid #e6e6e6;
+  vertical-align: middle;
 }
-main > .containt > .sec-4 > li > a > .tex:hover {
-  background: rgba(0, 0, 0, 0.35);
-}
-main > .containt > .sec-4 > li > a > .tex:hover > span {
-  display: inline-block;
-  color: #3a3939;
-  text-decoration: underline;
-  transform: translateX(-5px);
-  transition: transform 0.5s;
-}
-main > .containt > .sec-4 > li > a > .tex:hover > span > i {
-  color: #3a3939;
-  transform: translateX(8px);
-}
-main > .containt > .sec-4 > li > a > .tex > h1 {
-  margin-top: 35px;
-}
-main > .containt > .sec-4 > li > a > .tex > span > i {
-  display: inline-block;
-  font-size: 18px;
-  font-weight: 900;
-  color: #000;
-  transition: transform 0.5s;
+main > .sec-1 > .mesage > .choose > .num > .count .input-num {
+  width: 58px;
+  color: #333;
+  border-left: 0;
+  border-right: 0;
 }
 main > .sec-5 {
   width: 100%;
